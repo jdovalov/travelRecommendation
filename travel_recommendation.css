@@ -1,0 +1,17 @@
+nav {
+    background-color: #000;
+    color: #fff;
+}
+nav a {
+    color: #8bf;
+}
+body{
+    background-image: url(img/redwood.jpg);
+    height: 100%;
+}
+.content {
+    color: #040;
+    background-color: rgba(200,255,200,0.9);
+    padding: 10px;
+}
+
