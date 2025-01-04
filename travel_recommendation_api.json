@@ -6,12 +6,18 @@
         "cities": [
           {
             "name": "Sydney, Australia",
-            "imageUrl": "enter_your_image_for_sydney.jpg",
+            "imageName": "Sydney_opera_house_and_skyline.jpg",
+            "imageSource": "https://commons.wikimedia.org/wiki/File:"
+            "imageBy": "Matthew Field <a href="http://www.photography.mattfield.com">http://www.photography.mattfield.com</a>",
+            "imageLicense": "<a href="https://en.wikipedia.org/wiki/en:Creative_Commons">Creative Commons</a> <a href="//creativecommons.org/licenses/by/2.5/deed.en">Attribution 2.5 Generic</a>",
             "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
           },
           {
             "name": "Melbourne, Australia",
-            "imageUrl": "enter_your_image_for_melbourne.jpg",
+            "imageName": "Melbourne_Skyline_and_Princes_Bridge_-_Dec_2008_(cropped).jpg",
+            "imageSource": "https://commons.wikimedia.org/wiki/File:"
+            "imageBy": "<a href="https://en.wikipedia.org/wiki/User:Diliff">DAVID ILIFF</a>",
+            "imageLicense": "<a href="https://www.gnu.org/licenses/old-licenses/fdl-1.2.en.html">GNU Free Documentation License 1.2 or Later</a> or <a href="https://en.wikipedia.org/wiki/en:Creative_Commons">Creative Commons</a> <a href="//creativecommons.org/licenses/by/3.0/deed.en">Attribution 3.0 Unported</a>",
             "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
           }
         ]
@@ -22,12 +28,18 @@
         "cities": [
           {
             "name": "Tokyo, Japan",
-            "imageUrl": "enter_your_image_for_tokyo.jpg",
+            "imageName": "Minato_City,_Tokyo,_Japan.jpg",
+            "imageSource": "https://commons.wikimedia.org/wiki/File:"
+            "imageBy": "<a href="https://commons.wikimedia.org/wiki/User:Davekern">David Kernan</a>",
+            "imageLicense": "<a href="https://en.wikipedia.org/wiki/en:Creative_Commons">Creative Commons</a> <a href="https://creativecommons.org/licenses/by/4.0/deed.en">Attribution 4.0 International</a>",
             "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
           },
           {
             "name": "Kyoto, Japan",
-            "imageUrl": "enter_your_image_for_kyoto.jpg",
+            "imageName": "Kyoto-34_(49166717577).jpg",
+            "imageSource": "https://commons.wikimedia.org/wiki/File:"
+            "imageBy": "<a href="https://www.flickr.com/people/137802499@N06">Rachelle Haun</a>",
+            "imageLicense": "<a href="https://en.wikipedia.org/wiki/en:Creative_Commons">Creative Commons</a> <a href="//creativecommons.org/licenses/by/2.0/deed.en">Attribution 2.0 Generic</a>",
             "description": "Known for its historic temples, gardens, and traditional tea houses."
           }
         ]
@@ -38,12 +50,18 @@
         "cities": [
           {
             "name": "Rio de Janeiro, Brazil",
-            "imageUrl": "enter_your_image_for_rio.jpg",
+            "imageName": "Rio_de_Janeiro_Helicoptero_47_Feb_2006.jpg",
+            "imageSource": "https://commons.wikimedia.org/wiki/File:"
+            "imageBy": "<a href="https://commons.wikimedia.org/wiki/User:Mariordo">Mariordo</a> (Mario Roberto Durán Ortiz)",
+            "imageLicense": "<a href="https://www.gnu.org/licenses/old-licenses/fdl-1.2.en.html">GNU Free Documentation License 1.2 or Later</a> or <a href="https://en.wikipedia.org/wiki/en:Creative_Commons">Creative Commons</a> <a href="//creativecommons.org/licenses/by/3.0/deed.en">Attribution 3.0 Unported</a>",
             "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
           },
           {
             "name": "São Paulo, Brazil",
-            "imageUrl": "enter_your_image_for_sao-paulo.jpg",
+            "imageName": "(2006)_Sao_Paulo_Skyline_(9557402041).jpg",
+            "imageSource": "https://commons.wikimedia.org/wiki/File:"
+            "imageBy": "<a href="https://www.flickr.com/people/31018257@N00">Diego Torres Silvestre</a> from São Paulo, Brazil",
+            "imageLicense": "<a href="https://en.wikipedia.org/wiki/en:Creative_Commons">Creative Commons</a> <a href="//creativecommons.org/licenses/by/2.0/deed.en">Attribution 2.0 Generic</a>",
             "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
           }
         ]
@@ -53,13 +71,19 @@
       {
         "id": 1,
         "name": "Angkor Wat, Cambodia",
-        "imageUrl": "enter_your_image_for_angkor-wat.jpg",
+        "imageName": "enter_your_image_for_angkor-wat.jpg",
+        "imageSource": "https://commons.wikimedia.org/wiki/File:"
+        "imageBy": "",
+        "imageLicense": "",
         "description": "A UNESCO World Heritage site and the largest religious monument in the world."
       },
       {
         "id": 2,
         "name": "Taj Mahal, India",
-        "imageUrl": "enter_your_image_for_taj-mahal.jpg",
+        "imageName": "enter_your_image_for_taj-mahal.jpg",
+        "imageSource": "https://commons.wikimedia.org/wiki/File:"
+        "imageBy": "",
+        "imageLicense": "",
         "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
       }
     ],
@@ -67,13 +91,19 @@
       {
         "id": 1,
         "name": "Bora Bora, French Polynesia",
-        "imageUrl": "enter_your_image_for_bora-bora.jpg",
+        "imageName": "enter_your_image_for_bora-bora.jpg",
+        "imageSource": "https://commons.wikimedia.org/wiki/File:"
+        "imageBy": "",
+        "imageLicense": "",
         "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
       },
       {
         "id": 2,
         "name": "Copacabana Beach, Brazil",
-        "imageUrl": "enter_your_image_for_copacabana.jpg",
+        "imageName": "enter_your_image_for_copacabana.jpg",
+        "imageSource": "https://commons.wikimedia.org/wiki/File:"
+        "imageBy": "",
+        "imageLicense": "",
         "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
       }
     ]
