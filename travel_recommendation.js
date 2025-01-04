@@ -1,5 +1,5 @@
-document.getElementById("search").addEventListener("click",searchDestinations);
-document.getElementById("clear").addEventListener("click",clearSearch);
+document.getElementById("search")?.addEventListener("click",searchDestinations);
+document.getElementById("clear")?.addEventListener("click",clearSearch);
 
 function searchDestinations() {
     var searchString = document.getElementById("searchtext").value.trim().toLowerCase();
@@ -13,10 +13,14 @@ function searchDestinations() {
             document.getElementById("results").innerHTML = 
                 results.map(d=>`
                     <div class="destination">
-                        <img src="./img/${d.imageUrl}"></img>
+                        <img src="./img/${d.imageName}"></img>
                         <h3>${d.name}</h3>
                         <p>${d.description}</p>
+                        <p>Image by ${d.imageBy}<br/>
+                        licensed under ${d.imageLicense}<br/>
+                        Taken from <a href="https://commons.wikimedia.org/wiki/File:${d.imageSource}">https://commons.wikimedia.org/wiki/File:${d.imageSource}</a></p>
                     </div>
+                    <br/>
                 `).join("");
         })
         .catch(error=>{

@@ -5,38 +5,52 @@
         <link rel="stylesheet" href="./travel_recommendation.css"/>
     </head>
     <body>
-        <nav>
-            <!-- todo: Logo and name -->
-            Travel Recommendations
-            <a href="./index.html">Home</a>
-            <a href="./about.html">About Us</a>
-            <a href="./contact.html">Contact Us</a>
-            <input type="text" id="searchtext" placeholder="Enter a destination or keyword"/>
-            <button id="search">Search</button>
-            <button id="clear">Clear</button>
-        </nav>
-        <div class="content">
-            <h1>Contact us</h1>
-            <form id="contactForm">
-                <table>
-                    <tr>
-                        <td><label for="name">Name</label></td>
-                        <td><input type="text" id="name" placeholder="John Doe"/></td>
-                    </tr>
-                    <tr>
-                        <td><label for="email">Email</label></td>
-                        <td><input type="text" id="email" placeholder="noreply@example.com"/></td>
-                    </tr>
-                    <tr>
-                        <td><label for="phone">Phone Number</label></td>
-                        <td><input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="800-867-5309"></input></td>
-                    </tr>
-                    <tr>
-                        <td><label for="message">Message</label></td>
-                        <td><textarea id="message" placeholder="Write your message here"></textarea></td>
-                    </tr>
-                </table>
-            </form>
+        <table class="bar"><tr>
+            <td width="33%">
+                Travel Recommendations
+            </td>
+            <td style="text-align:center" width="34%">
+                <nav>
+                    <!-- todo: Logo and name -->
+                    <a href="./index.html">Home</a>
+                    <a href="./about.html">About Us</a>
+                    <a href="./contact.html">Contact Us</a>
+                </nav>
+            </td>
+            <td style="text-align:right" width="33%">
+                &nbsp;
+            </td>
+        </tr></table>
+        <main>
+            <div class="content">
+                <h1>Contact us</h1>
+                <form id="contactForm">
+                    <table>
+                        <tr>
+                            <td><label for="name">Name</label></td>
+                            <td><input type="text" id="name" placeholder="John Doe"/></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email</label></td>
+                            <td><input type="text" id="email" placeholder="noreply@example.com"/></td>
+                        </tr>
+                        <tr>
+                            <td><label for="phone">Phone Number</label></td>
+                            <td><input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="800-867-5309"></input></td>
+                        </tr>
+                        <tr>
+                            <td><label for="message">Message</label></td>
+                            <td><textarea id="message" placeholder="Write your message here" rows="5" cols="80"></textarea></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </main>
+        <div class="bar">
+            Background photo by <a href="https://www.flickr.com/photos/28413011@N07">Kyle Monahan</a>,
+            licensed under the <a href='https://en.wikipedia.org/wiki/en:Creative_Commons'>Creative Commons</a> <a href='//creativecommons.org/licenses/by/2.0/deed.en'>Attribution 2.0 Generic</a> license,
+            taken from <a href="https://commons.wikimedia.org/wiki/File:Grand_Canyon_(4).jpg">wikimedia</a>
         </div>
+        <script src="travel_recommendation.js"></script>
     </body>
 </html>

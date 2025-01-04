@@ -5,21 +5,36 @@
         <link rel="stylesheet" href="./travel_recommendation.css"/>
     </head>
     <body>
-        <nav>
-            <!-- todo: Logo and name -->
-            Travel Recommendations
-            <a href="./index.html">Home</a>
-            <a href="./about.html">About Us</a>
-            <a href="./contact.html">Contact Us</a>
-            <input type="text" id="searchtext" placeholder="Enter a destination or keyword"/>
-            <button id="search">Search</button>
-            <button id="clear">Clear</button>
-        </nav>
-        <div class="content">
-            <h1>Explore New Places</h1>
-            <p>Recommendations for places to go, curated by the instructors of my JavaScript course!</p>
+        <table class="bar"><tr>
+            <td width="33%">
+                Travel Recommendations
+            </td>
+            <td style="text-align:center" width="34%">
+                <nav>
+                    <!-- todo: Logo and name -->
+                    <a href="./index.html">Home</a>
+                    <a href="./about.html">About Us</a>
+                    <a href="./contact.html">Contact Us</a>
+                </nav>
+            </td>
+            <td style="text-align:right" width="33%">
+                <input type="text" id="searchtext" placeholder="Enter a destination or keyword"/>
+                <button id="search">Search</button>
+                <button id="clear">Clear</button>
+            </td>
+        </tr></table>
+        <main>
+            <div class="content">
+                <h1>Explore New Places</h1>
+                <p>Recommendations for places to go, curated by the instructors of my JavaScript course!</p>
+            </div>
+            <div id="results"></div>
+        </main>
+        <div class="bar">
+            Background photo by <a href="https://www.flickr.com/photos/28413011@N07">Kyle Monahan</a>,
+            licensed under the <a href='https://en.wikipedia.org/wiki/en:Creative_Commons'>Creative Commons</a> <a href='//creativecommons.org/licenses/by/2.0/deed.en'>Attribution 2.0 Generic</a> license,
+            taken from <a href="https://commons.wikimedia.org/wiki/File:Grand_Canyon_(4).jpg">wikimedia</a>
         </div>
-        <div id="results"></div>
         <script src="travel_recommendation.js"></script>
     </body>
 </html>
