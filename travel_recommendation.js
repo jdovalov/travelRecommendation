@@ -8,8 +8,10 @@ function searchDestinations() {
     fetch("travel_recommendation_api.json")
         .then(response=>response.json())
         .then(data=>{
-            var results = data.countries.find(item=>item.name.toLowerCase()===searchString)?.cities
-                ?? data[searchString];
+            var results = ( searchString === "country" || searchString === "countries ") ?
+                data.countries.reduce((accum,current)=>{return accum.concat(current.cities)},[]) :
+                ( data.countries.find(item=>item.name.toLowerCase()===searchString)?.cities
+                    ?? data[searchString] ) ;
             document.getElementById("results").innerHTML = 
                 results.map(d=>`
                     <div class="destination">
